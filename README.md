@@ -2,15 +2,6 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
 
-## How to use
-
-
-<!-- #default-branch-switch -->
-
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-ui-nextjs-ts
-cd material-ui-nextjs-ts
-```
 
 Install dependencies and run:
 
