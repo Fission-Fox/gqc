@@ -1,18 +1,41 @@
 "use client";
-// import BackgroudImage from "@/app/assets/images/bg/1.jpg";
+import BackgroudImage from "@/assets/images/bg/1.jpg";
 import { Box } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
+import Typed from "typed.js";
 export default function HomePage() {
-
+  setTimeout(() => {
+    new Typed("#typed", {
+      strings: [
+        "<b>Business</b>",
+        "<b>Startups</b>",
+        "<b>Digital Agency</b>",
+        "<b>Marketing</b>",
+      ],
+      backDelay: 2000,
+      loop: true,
+      startDelay: 300,
+      typeSpeed: 100,
+      backSpeed: 100,
+    });
+  }, 500);
   return (
     <Box sx={{ width: "100%" }}>
-      <section
-        style={{ backgroundImage: `url(../assets/images/bg/1.jpg)` }}
-        className="py-36 lg:py-64 w-full table relative bg-center bg-cover"
-        id="home"
-      >
+      <section className="py-24 w-full table relative h-[90vh] ">
+        <Image
+          src={BackgroudImage}
+          alt="Background Image"
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+            position: "absolute",
+            top: "0px",
+          }}
+        />
         <div className="absolute inset-0 bg-black opacity-80"></div>
-        <div className="container relative">
+        <div className="container relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 mt-12">
             <h4 className="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
               Providing Brilliant Ideas <br />
@@ -26,9 +49,8 @@ export default function HomePage() {
             </h4>
 
             <p className="text-white opacity-50 mb-0 max-w-2xl text-lg">
-              Launch your campaign and benefit from our expertise on
-              designing and managing conversion centered Tailwind CSS html
-              page.
+              Launch your campaign and benefit from our expertise on designing
+              and managing conversion centered Tailwind CSS html page.
             </p>
 
             <div className="relative mt-10">
