@@ -114,7 +114,7 @@ export default function Team() {
         </div>
 
         <div className="container mt-12">
-          <div className="grid grid-cols-2 md:grid-cols-4">
+          <div className="w-full grid grid-cols-2 md:grid-cols-4">
             <div className="counter-box position-relative text-center">
               <h3 className="font-medium text-3xl mb-2 dark:text-white">
                 <CountUp
@@ -177,8 +177,8 @@ export default function Team() {
           </div>
         </div>
 
-        <div className="container mt-12">
-          <div className="grid md:grid-cols-6 grid-cols-2 justify-center gap-8">
+        <div className=" w-full container mt-12">
+          <div className="w-full grid md:grid-cols-6 grid-cols-2 justify-center gap-8">
             <div className="mx-auto">
               <Image src={AmazonImage} className="h-[25px]" alt="" />
             </div>

@@ -3,23 +3,30 @@ import BackgroudImage from "@/assets/images/bg/1.jpg";
 import { Box } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 export default function HomePage() {
-  setTimeout(() => {
-    new Typed("#typed", {
-      strings: [
-        "<b>Business</b>",
-        "<b>Startups</b>",
-        "<b>Digital Agency</b>",
-        "<b>Marketing</b>",
-      ],
-      backDelay: 2000,
-      loop: true,
-      startDelay: 300,
-      typeSpeed: 100,
-      backSpeed: 100,
-    });
-  }, 500);
+  const typedRef = useRef(null);
+
+  useEffect(() => {
+    if (typedRef.current) {
+      const options = {
+        strings: [
+          "<b>Business</b>",
+          "<b>Startups</b>",
+          "<b>Digital Agency</b>",
+          "<b>Marketing</b>",
+        ],
+        backDelay: 2000,
+        loop: true,
+        startDelay: 300,
+        typeSpeed: 100,
+        backSpeed: 100,
+      };
+      new Typed(typedRef.current, options);
+    }
+  }, []);
+
   return (
     <Box sx={{ width: "100%" }}>
       <section className="py-24 w-full table relative h-[90vh] ">
@@ -42,7 +49,7 @@ export default function HomePage() {
               For Your{" "}
               <span
                 className="typewrite relative text-type-element"
-                id="typed"
+                ref={typedRef}
                 data-period="2000"
                 data-type='[ "Business", "Startups", "Digital Agency", "Marketing" ]'
               ></span>

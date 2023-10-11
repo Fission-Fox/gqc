@@ -3,8 +3,6 @@ import avatar1 from "@/assets/images/client/01.jpg";
 import avatar2 from "@/assets/images/client/02.jpg";
 import avatar3 from "@/assets/images/client/03.jpg";
 import avatar4 from "@/assets/images/client/04.jpg";
-import Image from "next/image";
-import TinySlider from "tiny-slider-react";
 
 import "tiny-slider/dist/tiny-slider.css";
 
@@ -30,16 +28,6 @@ const settings = {
   },
 };
 export default function Review() {
-  // useEffect(() => {
-  //     // Initialize the TinySlider or any other client-side code here
-  //     // Make sure it only runs on the client side
-  //     const slider = new TinySlider(settings);
-
-  //     // Clean up when the component unmounts
-  //     return () => {
-  //         slider.destroy(); // Destroy the slider to prevent memory leaks
-  //     };
-  // }, []);
   const review = [
     {
       id: "1",
@@ -99,7 +87,7 @@ export default function Review() {
 
           <div className="grid grid-cols-1 mt-8 relative">
             <div className="tiny-two-item">
-              <TinySlider settings={settings}>
+              {/* <TinySlider settings={settings}>
                 {review.map((el, index) => (
                   <div className="tiny-slide" key={index}>
                     <div className="lg:flex p-6 lg:p-0 relative rounded-md shadow shadow-slate-200 dark:shadow-slate-700 bg-white dark:bg-slate-900 overflow-hidden m-2">
@@ -129,7 +117,7 @@ export default function Review() {
                     </div>
                   </div>
                 ))}
-              </TinySlider>
+              </TinySlider> */}
             </div>
           </div>
         </div>
