@@ -4,6 +4,7 @@ import BeforeImages from "@/components/BeforeImage";
 import Description from "@/components/Description";
 import MissionSection from "@/components/MissionSection";
 import Team from "@/components/Team";
+import Testimonial from "@/components/Testimonial";
 import { Box } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
@@ -79,6 +80,7 @@ export default function HomePage() {
       <Description />
       <BeforeImages />
       <Team />
+      <Testimonial />
     </Box>
   );
 }
