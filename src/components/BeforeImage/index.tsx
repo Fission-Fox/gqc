@@ -1,5 +1,7 @@
+import BackgroudImage from "@/assets/images/team/1.jpg";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import BeforeCard from "../BeforeCard";
 export default function BeforeImages() {
   return (
     <div className="w-full flex flex-col gap-11 my-16">
@@ -37,28 +39,60 @@ export default function BeforeImages() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Jerry Gill. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Jerry. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Jerry John. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. David Gill. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Hooman . "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. harry doe. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Jerry Gill. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-slate-400 w-full h-[400px]">img</div>
+          <BeforeCard
+            img={BackgroudImage}
+            title=" Mr. Jerry Gill. "
+            name="Customer Services/Support"
+          />
         </SwiperSlide>
       </Swiper>
     </div>
