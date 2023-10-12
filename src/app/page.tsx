@@ -1,6 +1,9 @@
 "use client";
 import BackgroudImage from "@/assets/images/bg/1.jpg";
+import BeforeImages from "@/components/BeforeImage";
+import Description from "@/components/Description";
 import MissionSection from "@/components/MissionSection";
+import Team from "@/components/Team";
 import { Box } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
@@ -73,6 +76,9 @@ export default function HomePage() {
         </div>
       </section>
       <MissionSection />
+      <Description />
+      <BeforeImages />
+      <Team />
     </Box>
   );
 }
