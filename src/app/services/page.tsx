@@ -1,125 +1,104 @@
-import Link from "next/link";
-// import departmentImage from "../assets/images/svg/coding.svg";
-// import StrategyImage from "../assets/images/svg/design-thinking.svg";
-// import launchImage from "../assets/images/svg/office-desk.svg";
-// import departmentImage from "@/assets/images/svg/coding.svg";
+import BackgroudImage from "@/assets/images/bg/1.jpg";
+import car from "@/assets/images/car/black-car.webp";
+import Image from "next/image";
 
 export default function Services() {
-  const team = [
-    {
-      title: "Grow Your Business",
-      icon: "adjust-circle",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      title: "Drive More Sales",
-      icon: "circuit",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      title: "Handled By Expert",
-      icon: "fire",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      title: "Discussion For Idea",
-      icon: "shopping-basket",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      title: "Increase Conversion",
-      icon: "flower",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-    {
-      title: "Sales Growth Idea",
-      icon: "flip-h",
-      subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit",
-    },
-  ];
-
   return (
     <>
       {/* Start */}
-      <section className="relative md:py-24 py-16 active" id="features">
-        <div className="container lg mx-auto flex flex-col">
-          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 pb-8 items-center">
-            <div>
-              <h6 className="text-orange-600 text-base font-medium uppercase mb-2">
-                What We Do ?
-              </h6>
-              <h3 className="mb-4 md:text-2xl text-xl font-semibold dark:text-white md:mb-0">
-                Perfect Solution For Your <br /> Business
-              </h3>
-            </div>
-
-            <div>
-              <p className="text-slate-400 dark:text-slate-300 max-w-xl">
-                Launch your campaign and benefit from our expertise on designing
-                and managing conversion centered Tailwind CSS html page.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
-            {team.map((item, key) => (
-              <div
-                key={key}
-                className={`features p-6 ${
-                  key % 2 === 0
-                    ? "hover:shadow-xl hover:shadow-slate-100 dark:hover:shadow-slate-800"
-                    : "shadow-xl shadow-slate-100 dark:shadow-slate-800"
-                } transition duration-500 rounded-3xl mt-8`}
-              >
-                <div className="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
-                  <i className={`uil uil-${item.icon}`}></i>
-                </div>
-
-                <div className="content mt-7">
-                  <Link
-                    href="#"
-                    className="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium"
-                  >
-                    {item.title}
-                  </Link>
-                  <p className="text-slate-400 mt-3">{item.subtext}</p>
-
-                  <div className="mt-5">
-                    <Link
-                      href="#"
-                      className="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500"
-                    >
-                      Read More <i className="uil uil-arrow-right"></i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className="container md:mt-24 mt-16 flex flex-col">
-          <div className="grid grid-cols-1 pb-8 text-center">
-            <h6 className="text-orange-600 text-base font-medium uppercase mb-2">
-              Work Process
-            </h6>
-            <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">
-              Digital System For Our Business
-            </h3>
-
-            <p className="text-slate-400 dark:text-slate-300 max-w-xl mx-auto">
-              Launch your campaign and benefit from our expertise on designing
-              and managing conversion centered Tailwind CSS html page.
-            </p>
+      <section className="py-24 w-full table relative h-[60vh] ">
+        <Image
+          src={BackgroudImage}
+          alt="Background Image"
+          style={{
+            objectFit: "cover",
+            width: "100%",
+            height: "100%",
+            position: "absolute",
+            top: "0px",
+          }}
+        />
+        <div className="absolute inset-0 bg-black opacity-80"></div>
+        <div className="mx-auto md:!mx-36 relative flex flex-col justify-center h-full">
+          <div className="grid grid-cols-1 mt-12 border-b-2 border-yellow-200 w-[70%] md:w-96 m-auto md:m-0">
+            <h4 className="text-white lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
+              Services
+            </h4>
           </div>
         </div>
       </section>
+      <div className="container mx-auto flex flex-col gap-14">
+        <div className="w-[561px]">
+          <Image src={car} alt="car" />
+          <p className="text-[#19315B] font-[900] text-[32px]">
+            2016 TOYOTA LAND CRUISER PRADO
+          </p>
+          <div className="w-full border-b-[1px] border-black my-5"></div>
+          <p className="text-[25px] font-semibold">Vehicle Information</p>
+          <div className="flex gap-10 mt-6 flex-wrap">
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Make</p>
+              <p>TOYOTA</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">CC</p>
+              <p>1800cc</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Model</p>
+              <p>CBA</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Seat</p>
+              <p>5</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Grade</p>
+              <p>TX L-PKG</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Door</p>
+              <p>5</p>
+            </div>
+          </div>
+          <div className="w-full border-b-[1px] border-black my-5"></div>
+        </div>
+        <div className="w-[561px]">
+          <Image src={car} alt="car" />
+          <p className="text-[#19315B] font-[900] text-[32px]">
+            2016 TOYOTA LAND CRUISER PRADO
+          </p>
+          <div className="w-full border-b-[1px] border-black my-5"></div>
+          <p className="text-[25px] font-semibold">Vehicle Information</p>
+          <div className="flex gap-10 mt-6 flex-wrap">
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Make</p>
+              <p>TOYOTA</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">CC</p>
+              <p>1800cc</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Model</p>
+              <p>CBA</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Seat</p>
+              <p>5</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Grade</p>
+              <p>TX L-PKG</p>
+            </div>
+            <div className="flex justify-between w-[40%]">
+              <p className="font-bold">Door</p>
+              <p>5</p>
+            </div>
+          </div>
+          <div className="w-full border-b-[1px] border-black my-5"></div>
+        </div>
+      </div>
     </>
   );
 }
