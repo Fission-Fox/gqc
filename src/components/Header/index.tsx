@@ -111,28 +111,26 @@ export default function Header() {
             </span>
             <span
               className={`nav-link cursor-pointer ${
-                pathname === "/portfolio" ? "text-black md:!text-white" : ""
+                pathname === "/projects" ? "text-black md:!text-white" : ""
               }`}
-              onClick={() => router.push("/portfolio")}
+              onClick={() => router.push("/projects")}
             >
-              Portfolio
+              Projects
             </span>
-            <span
-              className={`nav-link cursor-pointer ${
-                pathname === "/reviews" ? "text-black md:!text-white" : ""
-              }`}
+            {/* <span
+              className={`nav-link cursor-pointer ${pathname === "/reviews" ? "text-black md:!text-white" : ""
+                }`}
               onClick={() => router.push("/reviews")}
             >
               Review
             </span>
             <span
-              className={`nav-link cursor-pointer ${
-                pathname === "/pricing" ? "text-black md:!text-white" : ""
-              }`}
+              className={`nav-link cursor-pointer ${pathname === "/pricing" ? "text-black md:!text-white" : ""
+                }`}
               onClick={() => router.push("/pricing")}
             >
               Pricing
-            </span>
+            </span> */}
             <span
               className={`nav-link cursor-pointer ${
                 pathname === "/contact-us" ? "text-black md:!text-white" : ""
