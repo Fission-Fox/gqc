@@ -32,9 +32,23 @@ export default function BeforeImages() {
       </div>
 
       <Swiper
-        style={{ width: "95%", margin: "auto" }}
+        style={{ width: "95%", margin: "auto", cursor: "grab" }}
         spaceBetween={50}
         slidesPerView={4}
+        breakpoints={{
+          1500: {
+            slidesPerView: 4,
+          },
+          1200: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
