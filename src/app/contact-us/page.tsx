@@ -155,6 +155,9 @@ export default function Contact() {
           </div>
         </div>
       </section>
+      <div className="w-[90%] md:w-[60%] m-auto h-[30vh] bg-slate-300 flex justify-center items-center mb-12">
+        <p>Map Here</p>
+      </div>
     </>
   );
 }

@@ -28,7 +28,7 @@ export default function Services() {
         </div>
       </section>
       <div className="container mx-auto flex flex-col gap-14">
-        <div className="w-[561px]">
+        <div className="w-auto md:w-[561px]">
           <Image src={car} alt="car" />
           <p className="text-[#19315B] font-[900] text-[32px]">
             2016 TOYOTA LAND CRUISER PRADO
@@ -63,7 +63,7 @@ export default function Services() {
           </div>
           <div className="w-full border-b-[1px] border-black my-5"></div>
         </div>
-        <div className="w-[561px]">
+        <div className="w-auto md:w-[561px]">
           <Image src={car} alt="car" />
           <p className="text-[#19315B] font-[900] text-[32px]">
             2016 TOYOTA LAND CRUISER PRADO
