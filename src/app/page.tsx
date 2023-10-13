@@ -7,7 +7,6 @@ import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import { Box } from "@mui/material";
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 export default function HomePage() {
@@ -64,15 +63,6 @@ export default function HomePage() {
               Launch your campaign and benefit from our expertise on designing
               and managing conversion centered Tailwind CSS html page.
             </p>
-
-            <div className="relative mt-10">
-              <Link
-                href="#"
-                className="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md"
-              >
-                Get Started
-              </Link>
-            </div>
           </div>
         </div>
       </section>
