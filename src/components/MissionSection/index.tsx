@@ -9,11 +9,11 @@ export default function MissionSection() {
       <div className="w-full lg:w-1/2 flex flex-col gap-8">
         <MissionItem
           title="Mission"
-          description="Homepage Spreading happiness through seamless car-buying experiences, offering high-quality Japanese used cars that bring smiles to our customers' faces. We exceed expectations with transparency, exceptional service, and personalized solutions, contributing to overall happiness and satisfaction."
+          description="We offer outstanding Japanese used cars with impressive specifications and a wide selection of models, bringing joy and satisfaction to our clients. Through honesty, superiority of service, and tailoring of approaches, we can increase our clients' happiness and contentment."
         />
         <MissionItem
           title="Vision"
-          description="Revolutionizing perceptions and purchase of Japanese used cars, we aim to be the catalyst for happiness in the automotive industry. Guided by expertise and dedication, we create a positive, customer-centric environment, offering reliable transportation and a joyful car ownership experience. Through innovation, we inspire happiness one car at a time, solidifying Prosource as the leading provider of Japanese automotive bliss."
+          description="Inspired by a desire to use our creativity to make the world a better place for all, we have resumed our efforts to bring in a new era of mobility. Providing safe modes of transportation and an exceptional car-buying experience, we aim to make our customers satisfied and secure. By offering unmatched quality products and services in all aspects of the automotive industry, we aspire to establish ourselves as a global market leader."
         />
       </div>
       <div className="w-full lg:w-1/2 bg-slate-400 h-[520px] relative mt-7 lg:mt-0">

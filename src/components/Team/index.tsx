@@ -6,16 +6,16 @@ export default function Team() {
       <div className="flex flex-col md:flex-row">
         <div className="w-full lg:w-1/2">
           <p className="text-[22px] font-[700] underline text-[#19315B]">
-            Meet Our Top Management Team
+            Introducing the leaders of our company
           </p>
           <p className="text-[#19315B] text-[32px] font-bold">
-            Driving Success at Prosource
+            Key Motives at [website name]
           </p>
         </div>
         <div className="w-full lg:w-1/2 flex items-end">
           <p className="font-[400]">
-            Competence, Knowledge, Conscientiousness, Integrity, Respect,
-            Emotional Intelligence, Appropriateness, and Confidence
+            Innovation, knowledge, customer satisfaction, integrity, competence,
+            excellent service, unique solutions, honest dealings.
           </p>
         </div>
       </div>

@@ -10,17 +10,18 @@ export default function BeforeImages() {
           <div className="w-full lg:w-[80%] flex flex-col items-end  ">
             <p className="text-[32px] text-[#19315B] font-bold mb-4 self-start">
               {" "}
-              Before Images
+              Our Team of Expert
             </p>
             <p>
-              Prosource's team comprises dedicated professionals with expertise
-              in sales, marketing, customer service, and automotive knowledge.
-              Their deep understanding of customer needs and the automotive
-              industry enables them to provide exceptional service, personalized
-              solutions, and transparent transactions. Together, they work
-              collaboratively to ensure a seamless and joyful car-buying
-              experience, with a commitment to spreading happiness and exceeding
-              customer expectations.
+              The dedicated team at [website name] consists of hardworking
+              individuals with backgrounds in sales, advertising, customer
+              service, and understanding of the automobile industry. As a result
+              of their expertise in the automobile sector and familiarity with
+              customers' needs, they can deliver excellent service, unique
+              solutions, and honest dealings. They share a common goal of
+              spreading pleasure and going above and beyond for customers by
+              working together to provide a pleasant and stress-free car-buying
+              experience.
             </p>
           </div>
         </div>

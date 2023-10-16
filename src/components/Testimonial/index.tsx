@@ -1,6 +1,7 @@
 import bg from "@/assets/images/bg/5.jpg";
 import BackgroudImage from "@/assets/images/carsbg.jpg";
 import avator from "@/assets/images/team/1.jpg";
+import ReviewsOutlinedIcon from "@mui/icons-material/ReviewsOutlined";
 import { Rating } from "@mui/material";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -33,7 +34,16 @@ export default function Testimonial() {
             }}
           />
           <div className="hidden md:!flex absolute  bg-[#002E5C] w-[120px] h-[120px] rounded-full right-[-52px] top-[30%] ">
-            <div className="w-[120px] h-[120px] relative  rounded-full border-[1px] border-white top-2 left-2"></div>
+            <div className="w-[120px] h-[120px] relative  rounded-full border-[1px] border-white top-2 left-2 flex items-center justify-center">
+              <ReviewsOutlinedIcon
+                sx={{
+                  color: "white",
+                  height: "50%",
+                  width: "50%",
+                  opacity: 0.8,
+                }}
+              />
+            </div>
           </div>
         </div>
         <div className="w-full md:w-1/2 flex justify-center flex-col p-4 md:p-28">
@@ -43,15 +53,15 @@ export default function Testimonial() {
             </p>
             <p className="  text-[32px] font-bold text-[#317BA0] ">
               {" "}
-              Customers Experience
+              Customer Feedback
             </p>
           </div>
-          <div className="w-full">
+          <div className="w-full cursor-grab">
             <Swiper
               spaceBetween={50}
               slidesPerView={1}
-              onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
+              // onSlideChange={() => console.log("slide change")}
+              // onSwiper={(swiper) => console.log(swiper)}
             >
               <SwiperSlide>
                 <div className="w-full flex flex-col">
@@ -88,7 +98,7 @@ export default function Testimonial() {
                     />
                     <div>
                       <p className="text-[22px] text-white font-bold">
-                        Max Benjamin
+                        Amalia Grace
                       </p>
                       <p className="text-[12px] text-[#317BA0] font-bold">
                         Senior Manager of Excel Solution
@@ -96,14 +106,13 @@ export default function Testimonial() {
                     </div>
                   </div>
                   <p className="text-white text-[18px] mt-4">
-                    I had been searching for a specific model of a Japanese used
-                    car for quite some time, and Prosource came to my rescue.
-                    Their extensive inventory and knowledgeable staff helped me
-                    find exactly what I was looking for. Their attention to
-                    detail and commitment to customer satisfaction are
-                    commendable. I am extremely satisfied with my purchase and
-                    the exceptional service I received from Prosource. I will
-                    definitely be recommending them to family and friends
+                    I found the exact used Japanese car model I had been looking
+                    for on [website name], which was above and beyond my
+                    expectations. They helped me every step of the way,
+                    explaining everything in depth and giving me all the
+                    information, I needed about the car's background, condition,
+                    and cost. Everything about my purchase and the accompanying
+                    assistance from the staff was perfect.
                   </p>
                 </div>
               </SwiperSlide>
@@ -141,21 +150,24 @@ export default function Testimonial() {
                       alt="img"
                     />
                     <div>
-                      <p className="text-[22px] text-white font-bold">John</p>
+                      <p className="text-[22px] text-white font-bold">
+                        Henry William
+                      </p>
                       <p className="text-[12px] text-[#317BA0] font-bold">
-                        Senior Manager of Excel Solution
+                        Senior Manager of GE solutions
                       </p>
                     </div>
                   </div>
                   <p className="text-white text-[18px] mt-4">
-                    I had been searching for a specific model of a Japanese used
-                    car for quite some time, and Prosource came to my rescue.
-                    Their extensive inventory and knowledgeable staff helped me
-                    find exactly what I was looking for. Their attention to
-                    detail and commitment to customer satisfaction are
-                    commendable. I am extremely satisfied with my purchase and
-                    the exceptional service I received from Prosource. I will
-                    definitely be recommending them to family and friends
+                    I just bought a car from [website name], and I'm thrilled
+                    with my choice. This car has excellent dependability, quick
+                    acceleration, fast handling, and great gas mileage. The
+                    Japanese car company also did a great job with customer
+                    service. The staff knew what they were talking about, was
+                    friendly, and willing to answer any questions I had. I
+                    suggest this company to anyone looking for a
+                    high-performance, reliable car. I've driven mine for
+                    thousands of miles and haven't had a single problem.
                   </p>
                 </div>
               </SwiperSlide>
@@ -193,21 +205,25 @@ export default function Testimonial() {
                       alt="img"
                     />
                     <div>
-                      <p className="text-[22px] text-white font-bold">David</p>
+                      <p className="text-[22px] text-white font-bold">
+                        John Lucus{" "}
+                      </p>
                       <p className="text-[12px] text-[#317BA0] font-bold">
                         Senior Manager of Excel Solution
                       </p>
                     </div>
                   </div>
                   <p className="text-white text-[18px] mt-4">
-                    I had been searching for a specific model of a Japanese used
-                    car for quite some time, and Prosource came to my rescue.
-                    Their extensive inventory and knowledgeable staff helped me
-                    find exactly what I was looking for. Their attention to
-                    detail and commitment to customer satisfaction are
-                    commendable. I am extremely satisfied with my purchase and
-                    the exceptional service I received from Prosource. I will
-                    definitely be recommending them to family and friends
+                    My experience with [website name] thus far has been
+                    excellent, and I couldn't be happier with the vehicle I
+                    purchased from them. One thing that sets this automaker
+                    apart is the innovative way it approaches design. Regarding
+                    security, I have no complaints about the car because of the
+                    many features included as standard. It's plain to see that
+                    the company cares about its customers. I also like to
+                    commend the company's excellent support staff. The reps were
+                    helpful, thorough, and concerned about my needs. It has
+                    impressed and satisfied me very much.
                   </p>
                 </div>
               </SwiperSlide>

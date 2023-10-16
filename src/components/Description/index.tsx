@@ -4,14 +4,16 @@ export default function Description() {
   return (
     <div>
       <div className="w-full flex flex-col justify-center items-center mb-4 mt-4">
-        <p className="text-[32px] font-bold">Leading</p>
+        {/* <p className="text-[32px] font-bold">Leading</p> */}
         <p className="text-[33px] font-[900] text-[#19315B]">
-          Effective Solutions
+          What set [website name] Apart?
         </p>
         <p className="w-full lg:w-[50%] text-center">
-          We work with your company to identify position requirements, implement
-          recruitment programs, and initiate employee assessments that maximize
-          recruitment efforts
+          [website name] offers the best car dealing services with non-stop
+          innovation and customer satisfaction and collaborates with your
+          company according to your niche and demand. Our experienced team is
+          always available to answer any questions or offers our clients may
+          need.
         </p>
       </div>
       <section className="py-24 w-full table relative h-[90vh] ">
@@ -29,23 +31,21 @@ export default function Description() {
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="container relative flex flex-col justify-center items-center h-full">
           <h1 className="text-[45px] font-semibold text-white text-center">
-            What is PRO Source?{" "}
+            What is [Website Name]
           </h1>
           <p className="font-[400] text-white mt-5 text-center">
-            Prosource is a sales and marketing company specializing in Japanese
-            used cars. With a mission to spread happiness, Prosource is
-            committed to providing customers with a seamless and joyful
-            car-buying experience. They offer a wide selection of high-quality
-            vehicles that exceed expectations and contribute to customer
-            satisfaction. Prosource prioritizes transparency, exceptional
-            service, and personalized solutions, ensuring that customers find
-            their dream vehicles and enjoy a positive car ownership experience.
-            By leveraging innovative marketing strategies, cutting-edge
-            technology, and a customer-centric approach, Prosource aims to
-            revolutionize the way people perceive and purchase Japanese used
-            cars. Their vision is to be the catalyst for happiness in the
-            automotive industry and establish themselves as the leading provider
-            of Japanese automotive bliss.
+            Regarding selling and marketing, no one knows more about Japanese
+            used vehicles than [Website Name]. Its goal is to make car-buying a
+            pleasant and stress-free experience for its customers. To help
+            clients find their ideal automobiles and have satisfying experiences
+            as car owners, [website name] places a premium on honesty, superior
+            service, and tailored options. They have a large inventory of
+            high-quality automobiles that consistently satisfy buyers. [website
+            name] mission is to transform the global market for Japanese used
+            cars through innovative marketing methods, state-of-the-art
+            technology, and a focus on consumer needs. They aim to become the
+            automotive industry's primary source of joy in Japan and spread that
+            joy worldwide.
           </p>
         </div>
       </section>
