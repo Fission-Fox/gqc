@@ -9,7 +9,7 @@ export default function Team() {
             Introducing the leaders of our company
           </p>
           <p className="text-[#19315B] text-[32px] font-bold">
-            Key Motives at [website name]
+            Key Motives at Global Quality Cars
           </p>
         </div>
         <div className="w-full lg:w-1/2 flex items-end">

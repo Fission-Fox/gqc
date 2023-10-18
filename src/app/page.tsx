@@ -16,10 +16,9 @@ export default function HomePage() {
     if (typedRef.current) {
       const options = {
         strings: [
-          "<b>Business</b>",
-          "<b>Startups</b>",
-          "<b>Digital Agency</b>",
-          "<b>Marketing</b>",
+          "<b>High-Quality</b>",
+          "<b>Classic Features</b>",
+          "<b>Exceptional Fuel Saving</b>",
         ],
         backDelay: 2000,
         loop: true,
@@ -49,19 +48,18 @@ export default function HomePage() {
         <div className="container relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 mt-12">
             <h4 className="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
-              Providing Brilliant Ideas <br />
-              For Your{" "}
+              Providing the best-used luxury cars within <br /> your reach with{" "}
               <span
                 className="typewrite relative text-type-element"
                 ref={typedRef}
                 data-period="2000"
-                data-type='[ "Business", "Startups", "Digital Agency", "Marketing" ]'
+                data-type='[ "High-Quality", "Classic Features", "Exceptional Fuel Saving" ]'
               ></span>
             </h4>
 
             <p className="text-white opacity-50 mb-0 max-w-2xl text-lg">
-              Launch your campaign and benefit from our expertise on designing
-              and managing conversion centered Tailwind CSS html page.
+              Choose the perfect used Japanese vehicle from our extensive
+              inventory for your needs and lifestyle.
             </p>
           </div>
         </div>

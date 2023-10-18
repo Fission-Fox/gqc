@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <>
       <footer className=" bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-          <div className="md:flex md:justify-between w-[70%] m-auto">
+          <div className="md:flex md:justify-between w-[70%] m-auto gap-0 md:gap-28">
             <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
@@ -19,21 +21,17 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                 <h2 className="mb-6 text-sm font-semibold  uppercase text-white">
-                  Resources
+                  Get In Touch
                 </h2>
                 <ul className="text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
-                      Flowbite
-                    </a>
+                    Location :- Office No 203 Second Floor Jason Trade Center
+                    PECHS Share Faisal Karachi.
                   </li>
                   <li>
-                    <a
-                      href="https://tailwindcss.com/"
-                      className="hover:underline"
-                    >
-                      Tailwind CSS
-                    </a>
+                    Contact :- <br />
+                    Phone : +92-309-788-1279 <br />
+                    Mail Us : info@prosource.pk
                   </li>
                 </ul>
               </div>
@@ -43,20 +41,19 @@ export default function Footer() {
                 </h2>
                 <ul className="text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a
-                      href="https://github.com/themesberg/flowbite"
-                      className="hover:underline "
-                    >
-                      Github
-                    </a>
+                    <Link href="/">Home</Link>
                   </li>
-                  <li>
-                    <a
-                      href="https://discord.gg/4eeurUVvTy"
-                      className="hover:underline"
-                    >
-                      Discord
-                    </a>
+                  <li className="mb-4">
+                    <Link href="/about-us">About Us</Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link href="/services">Services</Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link href="/projects">Projects</Link>
+                  </li>
+                  <li className="mb-4">
+                    <Link href="/contact-us">Contact Us</Link>
                   </li>
                 </ul>
               </div>
@@ -82,11 +79,7 @@ export default function Footer() {
           <hr className="my-6  sm:mx-auto border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm  sm:text-center text-gray-400">
-              © 2023{" "}
-              <a href="https://flowbite.com/" className="hover:underline">
-                Flowbite™
-              </a>
-              . All Rights Reserved.
+              © 2023 Global Quality Cars . All Rights Reserved.
             </span>
             <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500  hover:text-white">

@@ -107,7 +107,7 @@ export default function Testimonial() {
                   </div>
                   <p className="text-white text-[18px] mt-4">
                     I found the exact used Japanese car model I had been looking
-                    for on [website name], which was above and beyond my
+                    for on Global Quality Cars, which was above and beyond my
                     expectations. They helped me every step of the way,
                     explaining everything in depth and giving me all the
                     information, I needed about the car's background, condition,
@@ -159,13 +159,13 @@ export default function Testimonial() {
                     </div>
                   </div>
                   <p className="text-white text-[18px] mt-4">
-                    I just bought a car from [website name], and I'm thrilled
-                    with my choice. This car has excellent dependability, quick
-                    acceleration, fast handling, and great gas mileage. The
-                    Japanese car company also did a great job with customer
-                    service. The staff knew what they were talking about, was
-                    friendly, and willing to answer any questions I had. I
-                    suggest this company to anyone looking for a
+                    I just bought a car from Global Quality Cars, and I'm
+                    thrilled with my choice. This car has excellent
+                    dependability, quick acceleration, fast handling, and great
+                    gas mileage. The Japanese car company also did a great job
+                    with customer service. The staff knew what they were talking
+                    about, was friendly, and willing to answer any questions I
+                    had. I suggest this company to anyone looking for a
                     high-performance, reliable car. I've driven mine for
                     thousands of miles and haven't had a single problem.
                   </p>
@@ -214,7 +214,7 @@ export default function Testimonial() {
                     </div>
                   </div>
                   <p className="text-white text-[18px] mt-4">
-                    My experience with [website name] thus far has been
+                    My experience with Global Quality Cars thus far has been
                     excellent, and I couldn't be happier with the vehicle I
                     purchased from them. One thing that sets this automaker
                     apart is the innovative way it approaches design. Regarding

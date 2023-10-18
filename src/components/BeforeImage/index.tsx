@@ -13,7 +13,7 @@ export default function BeforeImages() {
               Our Team of Expert
             </p>
             <p>
-              The dedicated team at [website name] consists of hardworking
+              The dedicated team at Global Quality Cars consists of hardworking
               individuals with backgrounds in sales, advertising, customer
               service, and understanding of the automobile industry. As a result
               of their expertise in the automobile sector and familiarity with
