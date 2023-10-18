@@ -28,7 +28,7 @@ export default function Description() {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 bg-[#19315B] opacity-60"></div>
         <div className="container relative flex flex-col justify-center items-center h-full">
           <h1 className="text-[45px] font-semibold text-white text-center">
             What is Global Quality Cars

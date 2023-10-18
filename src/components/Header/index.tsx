@@ -13,7 +13,7 @@ export default function Header() {
     setMenu(!isOpen);
   };
   return (
-    <nav className="navbar bg-[#323232] bg-opacity-75 z-[99999]" id="navbar">
+    <nav className="navbar bg-[#002E5C] bg-opacity-75 z-[99999]" id="navbar">
       <div className="container flex flex-wrap items-center justify-end">
         <Link className="navbar-brand" href="/">
           <span className="inline-block dark:hidden">
@@ -26,50 +26,6 @@ export default function Header() {
           <div className="text-black md:!text-white border-2 border-black md:!border-white py-3  px-5 rounded-2xl cursor-pointer opacity-60 hover:opacity-100 ">
             Get In Touch
           </div>
-          {/* <ul className="list-none menu-social mb-0">
-            <li className="inline ms-1">
-              <Link href="#">
-                <span className="login-btn-primary">
-                  <span className="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white">
-                    <i className="uil uil-github"></i>
-                  </span>
-                </span>
-                <span className="login-btn-light">
-                  <span className="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-                    <i className="uil uil-github"></i>
-                  </span>
-                </span>
-              </Link>
-            </li>
-            <li className="inline ms-1">
-              <Link href="#">
-                <span className="login-btn-primary">
-                  <span className="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white">
-                    <i className="uil uil-twitter"></i>
-                  </span>
-                </span>
-                <span className="login-btn-light">
-                  <span className="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-                    <i className="uil uil-twitter"></i>
-                  </span>
-                </span>
-              </Link>
-            </li>
-            <li className="inline ms-1">
-              <Link href="#">
-                <span className="login-btn-primary">
-                  <span className="btn btn-sm btn-icon rounded-full bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white">
-                    <i className="uil uil-instagram"></i>
-                  </span>
-                </span>
-                <span className="login-btn-light">
-                  <span className="btn btn-sm btn-icon rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-                    <i className="uil uil-instagram"></i>
-                  </span>
-                </span>
-              </Link>
-            </li>
-          </ul> */}
           <button
             type="button"
             className="collapse-btn inline-flex items-center ms-3 text-dark dark:text-white lg_992:hidden"
