@@ -13,7 +13,7 @@ export default function Header() {
     setMenu(!isOpen);
   };
   return (
-    <nav className="navbar bg-[#002E5C] bg-opacity-75 z-[99999]" id="navbar">
+    <nav className="navbar bg-[#002E5C] bg-opacity-75 z-[99999]">
       <div className="container flex flex-wrap items-center justify-end">
         <Link className="navbar-brand" href="/">
           <span className="inline-block dark:hidden">
