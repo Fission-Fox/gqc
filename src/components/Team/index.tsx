@@ -14,8 +14,9 @@ export default function Team() {
         </div>
         <div className="w-full lg:w-1/2 flex items-end">
           <p className="font-[400]">
-            Innovation, knowledge, customer satisfaction, integrity, competence,
-            excellent service, unique solutions, honest dealings.
+            Innovation, knowledge, Collaboration, customer satisfaction,
+            integrity, competence, partnership, excellent service, unique
+            solutions, honest dealings.
           </p>
         </div>
       </div>

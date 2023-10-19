@@ -17,11 +17,11 @@ export default function BeforeImages() {
               individuals with backgrounds in sales, advertising, customer
               service, and understanding of the automobile industry. As a result
               of their expertise in the automobile sector and familiarity with
-              customers' needs, they can deliver excellent service, unique
-              solutions, and honest dealings. They share a common goal of
-              spreading pleasure and going above and beyond for customers by
-              working together to provide a pleasant and stress-free car-buying
-              experience.
+              customers' needs and collaboration, they can deliver excellent
+              service, unique solutions, and honest dealings. They share a
+              common goal of spreading pleasure and going above and beyond for
+              customers by working together to provide a pleasant and
+              stress-free car-buying experience.
             </p>
           </div>
         </div>

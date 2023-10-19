@@ -21,7 +21,7 @@ export default function Mission({ isFloat }: Prop) {
       <h1 className="text-[22px] font-[700] mt-3">Reliable Dealers</h1>
       <p className="mt-2">
         Because we appreciate our clients' time, effort, and money, we treat
-        them reasonably in our dealings with them
+        them reasonably in our dealings with them.
       </p>
       <p className="text-[12px] font-semibold my-5 flex items-center cursor-pointer">
         READ MORE{" "}

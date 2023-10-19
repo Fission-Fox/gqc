@@ -9,11 +9,12 @@ export default function Description() {
           What set Global Quality Cars Apart?
         </p>
         <p className="w-full lg:w-[50%] text-center">
-          Global Quality Cars offers the best car dealing services with non-stop
-          innovation and customer satisfaction and collaborates with your
-          company according to your niche and demand. Our experienced team is
-          always available to answer any questions or offers our clients may
-          need.
+          As a vendor, you can rely on our top-notch car dealing services that
+          come with a promise of non-stop innovation and unparalleled customer
+          satisfaction. We understand that each business has unique needs and
+          demands, and we strive to collaborate with you accordingly. Our team
+          of experienced professionals is always available to address any
+          queries or offers that you may have, ensuring a seamless partnership.
         </p>
       </div>
       <section className="py-24 w-full table relative h-[90vh] ">
@@ -31,21 +32,19 @@ export default function Description() {
         <div className="absolute inset-0 bg-[#19315B] opacity-60"></div>
         <div className="container relative flex flex-col justify-center items-center h-full">
           <h1 className="text-[45px] font-semibold text-white text-center">
-            What is Global Quality Cars
+            What are Global Quality Cars?
           </h1>
           <p className="font-[400] text-white mt-5 text-center">
-            Regarding selling and marketing, no one knows more about Japanese
-            used vehicles than Global Quality Cars. Its goal is to make
-            car-buying a pleasant and stress-free experience for its customers.
-            To help clients find their ideal automobiles and have satisfying
-            experiences as car owners, Global Quality Cars places a premium on
-            honesty, superior service, and tailored options. They have a large
-            inventory of high-quality automobiles that consistently satisfy
-            buyers. [website name] mission is to transform the global market for
-            Japanese used cars through innovative marketing methods,
-            state-of-the-art technology, and a focus on consumer needs. They aim
-            to become the automotive industry's primary source of joy in Japan
-            and spread that joy worldwide.
+            Regarding selling and marketing, people only know a little about
+            Japanese used vehicles than Global Quality Cars. Its goal is to make
+            the car-buying experience more convenient for collaboration with our
+            clients. Global Quality Cars deals with transparency, offering and
+            accepting different car-buying deals. They have a large inventory of
+            high-quality automobiles that consistently satisfy their clients.
+            Their mission is to transform the global market for Japanese used
+            cars through innovative marketing methods, state-of-the-art
+            technology, and a focus on consumer needs. They aim to become the
+            automotive industry's primary source of joy worldwide.
           </p>
         </div>
       </section>
