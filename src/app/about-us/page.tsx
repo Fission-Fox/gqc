@@ -69,17 +69,32 @@ const AboutPage = () => {
                   Who We Are ?
                 </h6>
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">
-                  Our Company Story
+                  Our Company's Overview
                 </h3>
 
                 <p className="text-slate-400 dark:text-slate-300 max-w-2xl mx-auto">
-                  Start working with Upwind that can provide everything you need
-                  to generate awareness, drive traffic, connect. Dummy text is
-                  text that is used in the publishing industry or by web
-                  designers to occupy the space which will later be filled with
-                  'real' content. This is required when, for example, the final
-                  text is not yet available. Dummy texts have been in use by
-                  typesetters since the 16th century.
+                  At Global Quality Cars, we believe that 'teamwork is a dream
+                  work.' Our commitment to excellence extends to our inventory
+                  of used luxury cars, setting new trends and revolutionizing
+                  the old ones. Our vehicle trading company takes pride in
+                  having a fantastic team of professionals committed to offering
+                  our vendors and clients the best car-buying experience. Our
+                  workforce is well-organized and highly skilled, emphasizing
+                  ongoing learning and development. We believe in coaching our
+                  employees toward their objectives so that they can grow and
+                  prosper inside our organization.
+                </p>
+                <br />
+                <p className="text-slate-400 dark:text-slate-300 max-w-2xl mx-auto">
+                  Our continuous commitment to our business has cemented Global
+                  Quality Cars' reputation as a reliable and trustworthy name.
+                  With the newest innovations and high-end quality automobiles,
+                  we seek to shape the future of automotive trading and provide
+                  our clients with unmatchable service, collaboration,
+                  knowledge, and guidance to spread happiness and comfort. Our
+                  highly skilled team of professionals makes it easy for the
+                  traders to choose by guiding them with every detail of the
+                  automobiles.
                 </p>
                 <div className="mt-10 relative ml-5 mb-3 cursor-pointer bg-[#002E5C] hover:bg-white hover:border-2 text-white hover:!text-[#002E5C] hover:border-[#002E5C] w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
                   <p className="font-semibold">Our Services</p>
@@ -95,8 +110,8 @@ const AboutPage = () => {
           </p>
           <p className="text-[32px] font-bold text-[#002E5C] mb-6 text-center w-full md:w-[80%] m-auto">
             {" "}
-            At Prosource, our core values form the foundation of our business
-            and guide.
+            Make a difference by working with Global Quality Cars, the industry
+            leader in automobile trading.
           </p>
           <CustomizedAccordions />
         </Box>

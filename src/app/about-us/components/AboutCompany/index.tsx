@@ -6,31 +6,31 @@ export default function AboutCompany() {
       title: "Affordable & Flexible",
       icon: "adjust-circle",
       subtext:
-        "Remember, affordability and flexibility often go hand in hand. By being open to alternative options and doing some research, you can find affordable and flexible solutions in various areas of your life.",
+        "Affordability and flexibility frequently go in proximity, and you can only find affordable options and adaptable solutions in numerous aspects of your life by performing thorough research.",
     },
     {
       title: "Knowledge",
       icon: "circuit",
       subtext:
-        "The role of ethics in business and its impact on reputation and success. Ethical decision-making processes and their significance in building trust with stakeholders.",
+        "It is a broadened understanding and insight into running a successful business. Ethical business behaviour and decision-making processes are essential for building trust with clients and stakeholders.",
     },
     {
       title: "Saves Time",
       icon: "fire",
       subtext:
-        "Remember, everyone's work style and preferences are different, so experiment with different techniques and find what works best for you.",
+        "Everyone has a separate working style, technique, and preferences, so trying different ways to establish an operating method that saves time is crucial.",
     },
     {
       title: "Fast & Quality",
       icon: "shopping-basket",
       subtext:
-        "Remember, achieving both speed and quality requires finding the right balance. While efficiency is important, it's crucial not to compromise on the overall quality of your work.",
+        "Efficiency is a trait you may incorporate into the organization's culture; therefore, it is essential to maintain the overall standards of your work.",
     },
     {
       title: "Experienced",
       icon: "flower",
       subtext:
-        "Remember, running a successful business requires hard work, dedication, and perseverance. It's essential to stay focused, flexible, and constantly seek ways to add value to your customers and the marketplace.",
+        "A company's success is built on its business strategy, plan, and running experience. It's critical to remain focused and adaptive to bring value to the clients and market.",
     },
     {
       title: "Sales Growth Idea",

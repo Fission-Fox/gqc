@@ -18,11 +18,12 @@ export default function OurBusiness() {
             <p className="text-[22px] font-bold text-center">Our Mission </p>
             <p className="text-center">
               {" "}
-              Spreading happiness through seamless car-buying experiences,
-              offering high-quality Japanese used cars that bring smiles to our
-              customers' faces. We exceed expectations with transparency,
-              exceptional service, and personalized solutions, contributing to
-              overall happiness and satisfaction.
+              We offer outstanding Japanese used cars with impressive
+              specifications and a wide selection of models, bringing joy and
+              satisfaction to our traders and vendors. Through honesty,
+              superiority of service, and tailoring of approaches, we can
+              increase our clients' happiness and contentment through
+              collaboration and unique car-buying experiences.
             </p>
           </div>
           <div
@@ -33,11 +34,13 @@ export default function OurBusiness() {
             <p className="text-[22px] font-bold text-center">Vision </p>
             <p className="text-center">
               {" "}
-              Spreading happiness through seamless car-buying experiences,
-              offering high-quality Japanese used cars that bring smiles to our
-              customers' faces. We exceed expectations with transparency,
-              exceptional service, and personalized solutions, contributing to
-              overall happiness and satisfaction.
+              Inspired by a desire to use our creativity to make the world a
+              better place for all, we have resumed our efforts to bring in a
+              new era of mobility. Providing safe modes of transportation and an
+              exceptional car-buying experience, we aim to satisfy our clients
+              with their collaboration. By offering unmatched quality products
+              and services in all aspects of the automotive industry, we aspire
+              to establish ourselves as a global market leader.
             </p>
           </div>
         </div>

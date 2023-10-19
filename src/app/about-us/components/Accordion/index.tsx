@@ -65,10 +65,10 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            Our values dictate our services to our valued clients, including
+            innovative cars, long-term collaborations, and excellent customer
+            service. Our continuous commitment to our business has cemented our
+            reputation as a reliable and trustworthy name.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -83,10 +83,9 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            We prioritize our clients, partners, and team members; therefore, we
+            provide high-end services through honest dealings and open
+            communication.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -101,10 +100,9 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            We are dedicated to offering our customers the best quality used and
+            brand-new vehicles. Each car is thoroughly inspected and assessed to
+            verify its dependability, durability, and general performance.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -114,15 +112,15 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography sx={{ color: "#19315B", fontWeight: "bold" }}>
-            Core Values
+            Partnership and Collaboration
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            We believe that teamwork is the driving force behind every
+            successful firm; thus, we cultivate a culture of teamwork and
+            coordination while valuing the varied perspectives of our team
+            members and partners.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -132,15 +130,14 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
           <Typography sx={{ color: "#19315B", fontWeight: "bold" }}>
-            Transparency
+            Competence
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            We have a team of professionals with outstanding skills and
+            knowledge dedicated to providing excellence in all our services. Our
+            goal is to be exceptionally competent in all of our connections.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -150,15 +147,17 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography sx={{ color: "#19315B", fontWeight: "bold" }}>
-            Innovation
+            Continuous Advancements
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            We are devoted to the advancement and learning in all facets of our
+            business. We value input, look for ways to improve, and adapt to the
+            changing needs of our clients and the industry. Moral Integrity: We
+            operate with the utmost honesty and ethical conduct in our
+            commercial interactions. We respect our clients, business partners,
+            and colleagues and follow all legal and regulatory requirements.
           </Typography>
         </AccordionDetails>
       </Accordion>
