@@ -33,10 +33,10 @@ export default function AboutCompany() {
         "A company's success is built on its business strategy, plan, and running experience. It's critical to remain focused and adaptive to bring value to the clients and market.",
     },
     {
-      title: "Sales Growth Idea",
+      title: "Adaption & Optimization",
       icon: "flip-h",
       subtext:
-        "The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit The phrasal sequence of the is now so that many campaign and benefit",
+        "Maintaining growth and staying ahead of the competition requires regular strategy assessment and adaption. It helps organizations to establish aftermarket strategies to improve performance.",
     },
   ];
 
