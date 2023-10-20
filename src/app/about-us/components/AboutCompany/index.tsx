@@ -56,14 +56,13 @@ export default function AboutCompany() {
           } transition duration-500 rounded-3xl mt-8`}
         >
           <div className="w-20 h-20 bg-[#19315B]/5 text-[#19315B] rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
-            {/* <i className={`uil uil-${item.icon}`}></i> */}
             {item?.icon}
           </div>
 
           <div className="content mt-7">
             <Link
               href="#"
-              className="text-lg hover:text-orange-600 dark:text-white dark:hover:text-orange-600 transition-all duration-500 ease-in-out font-medium"
+              className="text-lg hover:text-[#19315B] dark:text-white dark:hover:text-[#19315B] transition-all duration-500 ease-in-out font-medium"
             >
               {item.title}
             </Link>
@@ -72,7 +71,7 @@ export default function AboutCompany() {
             <div className="mt-5">
               <Link
                 href="#"
-                className="btn btn-link hover:text-orange-600 dark:hover:text-orange-600 after:bg-orange-600 dark:text-white transition duration-500"
+                className="btn btn-link hover:text-[#19315B] dark:hover:text-[#19315B] after:bg-[#19315B] dark:text-white transition duration-500"
               >
                 Read More <i className="uil uil-arrow-right"></i>
               </Link>
