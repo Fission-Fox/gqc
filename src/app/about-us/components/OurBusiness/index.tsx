@@ -1,3 +1,5 @@
+import { GrOverview } from "react-icons/gr";
+import { SiElectronbuilder } from "react-icons/si";
 export default function OurBusiness() {
   return (
     <div className="container mx-auto mt-24">
@@ -14,8 +16,10 @@ export default function OurBusiness() {
             style={{ boxShadow: "0px 0px 40px 0px rgba(0,0,0,.09)" }}
             className="bg-white rounded-[10px] w-full md:w-1/2 flex flex-col items-center justify-center p-8"
           >
-            <div className="w-[60px] h-[60px] bg-slate-200">icon</div>
-            <p className="text-[22px] font-bold text-center">Our Mission </p>
+            <SiElectronbuilder color="#002E5C" size={48} />
+            <p className="text-[22px] font-bold text-center mt-2">
+              Our Mission{" "}
+            </p>
             <p className="text-center">
               {" "}
               We offer outstanding Japanese used cars with impressive
@@ -30,8 +34,12 @@ export default function OurBusiness() {
             style={{ boxShadow: "0px 0px 40px 0px rgba(0,0,0,.09)" }}
             className="bg-white rounded-[10px] w-full md:w-1/2 flex flex-col items-center justify-center p-8"
           >
-            <div className="w-[60px] h-[60px] bg-slate-200">icon</div>
-            <p className="text-[22px] font-bold text-center">Vision </p>
+            <GrOverview
+              color="#002E5!important"
+              className="text-[#002E5C]"
+              size={48}
+            />
+            <p className="text-[22px] font-bold text-center mt-2">Vision </p>
             <p className="text-center">
               {" "}
               Inspired by a desire to use our creativity to make the world a

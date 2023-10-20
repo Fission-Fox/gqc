@@ -1,40 +1,44 @@
 import Link from "next/link";
+import { FaBusinessTime, FaStamp } from "react-icons/fa";
+import { GiGiftOfKnowledge } from "react-icons/gi";
+import { MdOutlineAutoFixHigh, MdViewKanban } from "react-icons/md";
+import { RiTeamFill } from "react-icons/ri";
 
 export default function AboutCompany() {
   const team = [
     {
       title: "Affordable & Flexible",
-      icon: "adjust-circle",
+      icon: <MdViewKanban />,
       subtext:
         "Affordability and flexibility frequently go in proximity, and you can only find affordable options and adaptable solutions in numerous aspects of your life by performing thorough research.",
     },
     {
       title: "Knowledge",
-      icon: "circuit",
+      icon: <GiGiftOfKnowledge />,
       subtext:
         "It is a broadened understanding and insight into running a successful business. Ethical business behaviour and decision-making processes are essential for building trust with clients and stakeholders.",
     },
     {
       title: "Saves Time",
-      icon: "fire",
+      icon: <FaBusinessTime />,
       subtext:
         "Everyone has a separate working style, technique, and preferences, so trying different ways to establish an operating method that saves time is crucial.",
     },
     {
       title: "Fast & Quality",
-      icon: "shopping-basket",
+      icon: <FaStamp />,
       subtext:
         "Efficiency is a trait you may incorporate into the organization's culture; therefore, it is essential to maintain the overall standards of your work.",
     },
     {
       title: "Experienced",
-      icon: "flower",
+      icon: <RiTeamFill />,
       subtext:
         "A company's success is built on its business strategy, plan, and running experience. It's critical to remain focused and adaptive to bring value to the clients and market.",
     },
     {
       title: "Adaption & Optimization",
-      icon: "flip-h",
+      icon: <MdOutlineAutoFixHigh />,
       subtext:
         "Maintaining growth and staying ahead of the competition requires regular strategy assessment and adaption. It helps organizations to establish aftermarket strategies to improve performance.",
     },
@@ -51,8 +55,9 @@ export default function AboutCompany() {
               : "shadow-xl shadow-slate-100 dark:shadow-slate-800"
           } transition duration-500 rounded-3xl mt-8`}
         >
-          <div className="w-20 h-20 bg-orange-600/5 text-orange-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
-            <i className={`uil uil-${item.icon}`}></i>
+          <div className="w-20 h-20 bg-[#19315B]/5 text-[#19315B] rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
+            {/* <i className={`uil uil-${item.icon}`}></i> */}
+            {item?.icon}
           </div>
 
           <div className="content mt-7">

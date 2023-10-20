@@ -28,7 +28,7 @@ const AboutPage = () => {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-black opacity-80"></div>
+        <div className="absolute inset-0  bg-[#19315B] opacity-70"></div>
         <div className="mx-auto md:!mx-36 relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 mt-12 border-b-2 border-yellow-200 w-[70%] md:w-96 m-auto md:m-0">
             <h4 className="text-white lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">

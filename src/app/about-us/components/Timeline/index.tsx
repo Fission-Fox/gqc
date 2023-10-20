@@ -1,3 +1,6 @@
+import { BsGraphUpArrow } from "react-icons/bs";
+import { GiGiftOfKnowledge } from "react-icons/gi";
+import { MdOutlineAutoFixHigh } from "react-icons/md";
 export default function OppositeContentTimeline() {
   return (
     <div className="grid grid-cols-1 mt-8">
@@ -5,10 +8,11 @@ export default function OppositeContentTimeline() {
         <div className="timeline-item">
           <div className="grid sm:grid-cols-2">
             <div className="">
-              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative">
+              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-[#143b65]">
                 {/* <Image src={StrategyImage} className="h-64 w-64" alt="" /> */}
                 {/* <CodingImage /> */}
-                <div className="h-64 w-64 bg-slate-300"> Image</div>
+                {/* <div className="h-64 w-64 bg-slate-300"> Image</div> */}
+                <MdOutlineAutoFixHigh className="h-64 w-64" />
               </div>
             </div>
             <div className="mt-4 md:mt-0">
@@ -36,15 +40,17 @@ export default function OppositeContentTimeline() {
                   Development
                 </h5>
                 <p className="timeline-subtitle mt-3 mb-0 text-slate-400">
-                  The generated injected humour, or non-characteristic words
-                  etc. Cum sociis natoque penatibus et magnis dis parturient
-                  montes, nascetur ridiculus mus. Donec quam felis,
+                  In the ever-changing automobile business, constant innovation
+                  is crucial. Our goal is to improve our products and services
+                  to the point where we far outpace the competition. Thus, we
+                  aim to achieve success in the areas of car trading, research
+                  and innovation, and technological advancement.
                 </p>
               </div>
             </div>
             <div className="md:order-2 order-1">
-              <div className="duration duration-right md:ms-7 relative">
-                <div className="h-64 w-64 bg-slate-300"> Image</div>
+              <div className="duration duration-right md:ms-7 relative text-[#143b65]">
+                <GiGiftOfKnowledge className="h-64 w-64" />
               </div>
             </div>
           </div>
@@ -53,8 +59,8 @@ export default function OppositeContentTimeline() {
         <div className="timeline-item mt-5 pt-4">
           <div className="grid sm:grid-cols-2">
             <div className="mt-4 mt-sm-0">
-              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative">
-                <div className="h-64 w-64 bg-slate-300"> Image</div>
+              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-[#143b65]">
+                <BsGraphUpArrow className="h-64 w-64" />
               </div>
             </div>
             <div className="mt-4 mt-sm-0">
