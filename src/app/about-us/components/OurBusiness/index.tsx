@@ -16,7 +16,7 @@ export default function OurBusiness() {
             style={{ boxShadow: "0px 0px 40px 0px rgba(0,0,0,.09)" }}
             className="bg-white rounded-[10px] w-full md:w-1/2 flex flex-col items-center justify-center p-8"
           >
-            <SiElectronbuilder color="#002E5C" size={48} />
+            <SiElectronbuilder size={48} />
             <p className="text-[22px] font-bold text-center mt-2">
               Our Mission{" "}
             </p>
@@ -34,11 +34,7 @@ export default function OurBusiness() {
             style={{ boxShadow: "0px 0px 40px 0px rgba(0,0,0,.09)" }}
             className="bg-white rounded-[10px] w-full md:w-1/2 flex flex-col items-center justify-center p-8"
           >
-            <GrOverview
-              color="#002E5!important"
-              className="text-[#002E5C]"
-              size={48}
-            />
+            <GrOverview size={48} />
             <p className="text-[22px] font-bold text-center mt-2">Vision </p>
             <p className="text-center">
               {" "}
