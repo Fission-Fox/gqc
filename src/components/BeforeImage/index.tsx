@@ -27,7 +27,7 @@ export default function BeforeImages() {
         </div>
         <div className="w-full lg:w-1/2 flex items-end justify-center">
           <div className="cursor-pointer bg-black hover:bg-white hover:border-2 text-white hover:!text-black hover:border-black w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
-            <p className="  font-semibold">View All Services</p>
+            <p className="  font-semibold"> Services</p>
           </div>
         </div>
       </div>

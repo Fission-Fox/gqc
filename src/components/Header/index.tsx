@@ -12,7 +12,7 @@ export default function Header() {
     setMenu(!isOpen);
   };
   return (
-    <nav className="navbar bg-white bg-opacity-75 z-[99999]">
+    <nav className="navbar bg-white bg-opacity-75 z-[99999] border-b-2 border-[#c50017]">
       <div className="container flex flex-wrap items-center justify-end">
         <Link className="navbar-brand" href="/">
           <span className="inline-block dark:hidden">
@@ -22,8 +22,8 @@ export default function Header() {
           <Image src={LogoLight} className="hidden dark:inline-block" alt="" />
         </Link>
         <div className="nav-icons flex items-center lg_992:order-2 ms-auto">
-          <div className="text-black  font-medium border-black border-[1px] py-3  px-5 rounded-2xl cursor-pointer opacity-60 hover:opacity-100 ">
-            Get In Touch
+          <div className="cursor-pointer bg-black hover:bg-white hover:border-2 text-white hover:!text-black hover:border-black w-[150px] h-[40px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
+            <p> Get In Touch</p>
           </div>
           <button
             type="button"
