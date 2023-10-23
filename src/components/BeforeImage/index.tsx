@@ -8,9 +8,9 @@ export default function BeforeImages() {
       <div className="w-[85%] m-auto flex flex-col lg:flex-row ">
         <div className="w-full lg:w-[50%] flex justify-end ">
           <div className="w-full lg:w-[80%] flex flex-col items-end  ">
-            <p className="text-[32px] text-[#19315B] font-bold mb-4 self-start">
+            <p className="text-[32px] text-black font-bold mb-4 self-start">
               {" "}
-              Our Team of Expert
+              Our <span className="text-[#C50017]">Team of Expert</span>
             </p>
             <p>
               The dedicated team at Global Quality Cars consists of hardworking
@@ -26,7 +26,7 @@ export default function BeforeImages() {
           </div>
         </div>
         <div className="w-full lg:w-1/2 flex items-end justify-center">
-          <div className="cursor-pointer bg-[#002E5C] hover:bg-white hover:border-2 text-white hover:!text-[#002E5C] hover:border-[#002E5C] w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
+          <div className="cursor-pointer bg-black hover:bg-white hover:border-2 text-white hover:!text-black hover:border-black w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
             <p className="  font-semibold">View All Services</p>
           </div>
         </div>

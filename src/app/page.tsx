@@ -29,7 +29,7 @@ export default function HomePage() {
       new Typed(typedRef.current, options);
     }
   }, []);
-
+  // #C50017
   return (
     <Box sx={{ width: "100%" }}>
       <section className="py-24 w-full table relative h-[90vh] ">
@@ -44,10 +44,10 @@ export default function HomePage() {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-[#19315B] opacity-70"></div>
+        <div className="absolute inset-0 bg-[slategray] opacity-70"></div>
         <div className="container relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 mt-12">
-            <h4 className="text-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
+            <h4 className="text-black drop-shadow-md !opacity-60 shadow-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
               A platform that facilitates car <br /> dealerships with{" "}
               <span
                 className="typewrite relative text-type-element"
@@ -57,7 +57,7 @@ export default function HomePage() {
               ></span>
             </h4>
 
-            <p className="text-white opacity-50 mb-0 max-w-2xl text-lg">
+            <p className="text-black opacity-70 mb-0 max-w-2xl text-lg">
               Benefit from our digital solutions of trading vehicles according
               to your needs and desire.
             </p>

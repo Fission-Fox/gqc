@@ -33,7 +33,7 @@ export default function Testimonial() {
               top: "0px",
             }}
           />
-          <div className="hidden md:!flex absolute  bg-[#002E5C] w-[120px] h-[120px] rounded-full right-[-52px] top-[30%] ">
+          <div className="hidden md:!flex absolute  bg-black w-[120px] h-[120px] rounded-full right-[-52px] top-[30%] ">
             <div className="w-[120px] h-[120px] relative  rounded-full border-[1px] border-white top-2 left-2 flex items-center justify-center">
               <ReviewsOutlinedIcon
                 sx={{
@@ -51,7 +51,7 @@ export default function Testimonial() {
             <p className="text-white underline text-[22px] font-bold">
               Quote About Us
             </p>
-            <p className="  text-[32px] font-bold text-[#317BA0] ">
+            <p className="  text-[32px] font-bold text-slate-400 ">
               {" "}
               Customer Feedback
             </p>
@@ -100,7 +100,7 @@ export default function Testimonial() {
                       <p className="text-[22px] text-white font-bold">
                         Amalia Grace
                       </p>
-                      <p className="text-[12px] text-[#317BA0] font-bold">
+                      <p className="text-[12px] text-slate-400 font-bold">
                         Senior Manager of Excel Solution
                       </p>
                     </div>
@@ -153,7 +153,7 @@ export default function Testimonial() {
                       <p className="text-[22px] text-white font-bold">
                         Henry William
                       </p>
-                      <p className="text-[12px] text-[#317BA0] font-bold">
+                      <p className="text-[12px] text-slate-400 font-bold">
                         Senior Manager of GE solutions
                       </p>
                     </div>
@@ -208,7 +208,7 @@ export default function Testimonial() {
                       <p className="text-[22px] text-white font-bold">
                         John Lucus{" "}
                       </p>
-                      <p className="text-[12px] text-[#317BA0] font-bold">
+                      <p className="text-[12px] text-slate-400 font-bold">
                         Senior Manager of Excel Solution
                       </p>
                     </div>

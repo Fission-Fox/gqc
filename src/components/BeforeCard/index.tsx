@@ -23,15 +23,15 @@ export default function BeforeCard({ title, name, img }: Prop) {
       <div
         style={{
           background:
-            "linear-gradient(to top, #6EC1E4 ,transparent, transparent)",
+            "linear-gradient(to top, black ,transparent, transparent)",
         }}
         className="relative h-full w-full inset-0 flex flex-col items-start justify-end "
       >
         <div className="pl-5 absolute bottom-6">
-          <div className="bg-[#002E5C] w-[70px] h-[70px] mb-4 opacity-70 rounded-xl flex justify-center">
+          <div className="bg-black border-[#C50017] border-2 w-[70px] h-[70px] mb-4 opacity-70 rounded-xl flex justify-center">
             <ThumbUpOffAltIcon
               sx={{
-                color: "white",
+                color: "#C50017",
                 width: "80%",
                 height: "80%",
                 margin: "auto",

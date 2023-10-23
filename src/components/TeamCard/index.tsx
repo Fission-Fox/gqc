@@ -37,11 +37,11 @@ export default function TeamCard({ name, title, img }: Prop) {
       <div
         style={{
           background:
-            "linear-gradient(to top, #6EC1E4 ,transparent, transparent)",
+            "linear-gradient(to top, black ,transparent, transparent)",
         }}
         className="relative h-full w-full inset-0 flex flex-col items-start justify-end rounded-2xl "
       >
-        <div className="absolute top-0 right-0 w-[53px] h-[132px] bg-[#002E5C] rounded-b-full flex flex-col  items-center justify-end gap-5 rounded-tr-2xl">
+        <div className="absolute top-0 right-0 w-[53px] h-[132px] bg-black rounded-b-full flex flex-col  items-center justify-end gap-5 rounded-tr-2xl">
           <p className="-rotate-90 absolute top-[20%] text-white text-[15px]">
             SHARE
           </p>
@@ -77,7 +77,7 @@ export default function TeamCard({ name, title, img }: Prop) {
             {name}
           </h1>
         </div>
-        <div className="absolute ml-5 mb-3 cursor-pointer bg-[#002E5C] hover:bg-white opacity-0 group-hover:!opacity-100  transition-opacity duration-300 hover:border-2 text-white hover:!text-[#002E5C] hover:border-[#002E5C] w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
+        <div className="absolute ml-5 mb-3 cursor-pointer border-2 border-white bg-black hover:bg-white opacity-0 group-hover:!opacity-100  transition-opacity duration-300 hover:border-2 text-white hover:!text-black hover:border-black w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
           <p className="font-semibold">View Profile</p>
         </div>
       </div>
