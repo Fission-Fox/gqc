@@ -44,7 +44,7 @@ export default function HomePage() {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-[slategray] opacity-70"></div>
+        <div className="absolute inset-0 bg-[slategray] opacity-90"></div>
         <div className="container relative flex flex-col justify-center h-full">
           <div className="grid grid-cols-1 mt-12">
             <h4 className="text-black drop-shadow-md !opacity-60 shadow-white lg:text-5xl text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">

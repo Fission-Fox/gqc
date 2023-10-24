@@ -30,7 +30,7 @@ export default function Description() {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-[slategray] opacity-60"></div>
+        <div className="absolute inset-0 bg-[slategray] opacity-90"></div>
         <div className="container relative flex flex-col justify-center items-center h-full">
           <h1 className="text-[45px] !opacity-60  font-semibold text-black text-center">
             What are{" "}

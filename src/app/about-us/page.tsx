@@ -28,10 +28,10 @@ const AboutPage = () => {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0  bg-[#19315B] opacity-70"></div>
+        <div className="absolute inset-0  bg-[slategray] opacity-90"></div>
         <div className="mx-auto md:!mx-36 relative flex flex-col justify-center h-full">
-          <div className="grid grid-cols-1 mt-12 border-b-2 border-yellow-200 w-[70%] md:w-96 m-auto md:m-0">
-            <h4 className="text-white lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
+          <div className="grid grid-cols-1 mt-12 border-b-2 border-[#C50017] w-[70%] md:w-96 m-auto md:m-0">
+            <h4 className="text-black lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
               About Us
             </h4>
           </div>
@@ -65,7 +65,7 @@ const AboutPage = () => {
 
             <div className="lg:col-span-7">
               <div className="lg:ms-7">
-                <h6 className="text-[#002E5C] text-base font-medium uppercase mb-2">
+                <h6 className="text-[#C50017] text-base font-medium uppercase mb-2">
                   Who We Are ?
                 </h6>
                 <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">
@@ -96,7 +96,7 @@ const AboutPage = () => {
                   traders to choose by guiding them with every detail of the
                   automobiles.
                 </p>
-                <div className="mt-10 relative ml-5 mb-3 cursor-pointer bg-[#002E5C] hover:bg-white hover:border-2 text-white hover:!text-[#002E5C] hover:border-[#002E5C] w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
+                <div className="mt-10 relative ml-5 mb-3 cursor-pointer bg-black hover:bg-white hover:border-2 text-white hover:!text-black hover:border-black w-[190px] h-[58px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
                   <p className="font-semibold">Our Services</p>
                 </div>
               </div>
@@ -105,21 +105,22 @@ const AboutPage = () => {
         </div>
         <OurBusiness />
         <Box sx={{ width: { xs: "90%", md: "59%" }, margin: "auto" }}>
-          <p className="text-[22px] text-[#002E5C] font-bold underline text-center mt-36">
+          <p className="text-[22px] text-[#C50017] font-bold underline text-center mt-36">
             Our Business{" "}
           </p>
-          <p className="text-[32px] font-bold text-[#002E5C] mb-6 text-center w-full md:w-[80%] m-auto">
+          <p className="text-[32px] font-bold text-black mb-6 text-center w-full md:w-[80%] m-auto">
             {" "}
-            Make a difference by working with Global Quality Cars, the industry
-            leader in automobile trading.
+            Make a difference by working with{" "}
+            <span className="text-[#C50017]">Global Quality Cars</span>, the
+            industry leader in automobile trading.
           </p>
           <CustomizedAccordions />
         </Box>
         <Box sx={{ width: { xs: "90%", md: "59%" }, margin: "auto" }}>
-          <p className="text-[22px] text-[#002E5C] font-[700] underline text-center mt-36">
+          <p className="text-[22px] text-[#C50017] font-[700] underline text-center mt-36">
             Evaluation of{" "}
           </p>
-          <p className="text-[32px] font-bold text-[#002E5C] mb-6 text-center w-full md:w-[80%] m-auto">
+          <p className="text-[32px] font-bold text-black mb-6 text-center w-full md:w-[80%] m-auto">
             {" "}
             Our Company & Partners
           </p>

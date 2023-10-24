@@ -4,10 +4,10 @@ export default function OurBusiness() {
   return (
     <div className="container mx-auto mt-24">
       <div className="    bg-[#F0F3F9] flex flex-col items-center justify-center p-5 py-16">
-        <p className="text-[22px] text-[#002E5C] font-[700] underline text-center ">
+        <p className="text-[22px] text-[#C50017] font-[700] underline text-center ">
           Our Business{" "}
         </p>
-        <p className="text-[32px] font-bold text-[#002E5C] mb-6">
+        <p className="text-[32px] font-bold text-black mb-6">
           {" "}
           Stand Out From The Rest
         </p>

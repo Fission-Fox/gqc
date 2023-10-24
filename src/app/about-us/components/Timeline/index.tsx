@@ -8,11 +8,11 @@ export default function OppositeContentTimeline() {
         <div className="timeline-item">
           <div className="grid sm:grid-cols-2">
             <div className="">
-              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-[#143b65]">
+              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-black ">
                 {/* <Image src={StrategyImage} className="h-64 w-64" alt="" /> */}
                 {/* <CodingImage /> */}
                 {/* <div className="h-64 w-64 bg-slate-300"> Image</div> */}
-                <MdOutlineAutoFixHigh className="h-64 w-64" />
+                <MdOutlineAutoFixHigh className="h-64 w-64 opacity-30" />
               </div>
             </div>
             <div className="mt-4 md:mt-0">
@@ -31,7 +31,6 @@ export default function OppositeContentTimeline() {
             </div>
           </div>
         </div>
-
         <div className="timeline-item mt-5 pt-4">
           <div className="grid sm:grid-cols-2">
             <div className="md:order-1 order-2">
@@ -49,8 +48,8 @@ export default function OppositeContentTimeline() {
               </div>
             </div>
             <div className="md:order-2 order-1">
-              <div className="duration duration-right md:ms-7 relative text-[#143b65]">
-                <GiGiftOfKnowledge className="h-64 w-64" />
+              <div className="duration duration-right md:ms-7 relative text-black ">
+                <GiGiftOfKnowledge className="h-64 w-64 opacity-30" />
               </div>
             </div>
           </div>
@@ -59,8 +58,8 @@ export default function OppositeContentTimeline() {
         <div className="timeline-item mt-5 pt-4">
           <div className="grid sm:grid-cols-2">
             <div className="mt-4 mt-sm-0">
-              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-[#143b65]">
-                <BsGraphUpArrow className="h-64 w-64" />
+              <div className="duration date-label-left ltr:float-right rtl:float-left md:me-7 relative text-black">
+                <BsGraphUpArrow className="h-64 w-64 opacity-30" />
               </div>
             </div>
             <div className="mt-4 mt-sm-0">

@@ -55,7 +55,7 @@ export default function AboutCompany() {
               : "shadow-xl shadow-slate-100 dark:shadow-slate-800"
           } transition duration-500 rounded-3xl mt-8`}
         >
-          <div className="w-20 h-20 bg-[#19315B]/5 text-[#19315B] rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
+          <div className="w-20 h-20 bg-[#19315B]/5 text-black rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm">
             {item?.icon}
           </div>
 
@@ -71,7 +71,7 @@ export default function AboutCompany() {
             <div className="mt-5">
               <Link
                 href="#"
-                className="btn btn-link hover:text-[#19315B] dark:hover:text-[#19315B] after:bg-[#19315B] dark:text-white transition duration-500"
+                className="btn btn-link hover:text-[#19315B] dark:hover:text-[#19315B] after:bg-[#C50017] dark:text-white transition duration-500"
               >
                 Read More <i className="uil uil-arrow-right"></i>
               </Link>
