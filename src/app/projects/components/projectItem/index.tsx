@@ -32,13 +32,7 @@ export default function ProjectItem({ tag, title, desc, key }: Prop) {
         onMouseLeave={handleUnhover}
       >
         <div className="w-[90%] md:w-[35%] p-7">
-          <div className="flex">
-            <span className="bg-[#f0f3f9]  rounded-md p-2 flex justify-center items-center">
-              <p className="text-[12px] font-semibold">{tag}</p>
-            </span>
-          </div>
-
-          <p className="text-[22px] font-bold text-[#317BA0] mt-3">{title}</p>
+          <p className="text-[22px] font-bold text-[#C50017] mt-3">{title}</p>
           <div className="border-b-2 my-6 border-[#e4e7ee]"></div>
           <p>{desc}</p>
           <p className="mt-4 cursor-pointer ">
