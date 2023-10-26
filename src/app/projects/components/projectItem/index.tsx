@@ -1,6 +1,7 @@
 import BackgroudImage from "@/assets/images/bg/1.jpg";
 import EastIcon from "@mui/icons-material/East";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 type Prop = {
@@ -10,6 +11,7 @@ type Prop = {
   key?: string | number;
 };
 export default function ProjectItem({ tag, title, desc, key }: Prop) {
+  const router = useRouter();
   const [isHovered, setIsHovered] = useState(false);
 
   const handleHover = () => {
@@ -35,7 +37,12 @@ export default function ProjectItem({ tag, title, desc, key }: Prop) {
           <p className="text-[22px] font-bold text-[#C50017] mt-3">{title}</p>
           <div className="border-b-2 my-6 border-[#e4e7ee]"></div>
           <p>{desc}</p>
-          <p className="mt-4 cursor-pointer ">
+          <p
+            className="mt-4 cursor-pointer "
+            onClick={() => {
+              router.push("/projects/" + tag);
+            }}
+          >
             Read More <EastIcon sx={{ fontSize: "18px", marginLeft: "10px" }} />
           </p>
         </div>
