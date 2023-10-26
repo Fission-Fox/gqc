@@ -73,7 +73,7 @@ export default function BeforeImages() {
         <SwiperSlide>
           <BeforeCard
             img={one}
-            title="Sheheryar"
+            title="Sheheryar Ahmed"
             name="Customer Services /Support"
           />
         </SwiperSlide>
