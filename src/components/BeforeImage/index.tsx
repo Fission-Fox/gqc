@@ -1,4 +1,14 @@
-import BackgroudImage from "@/assets/images/team/1.jpg";
+import one from "@/assets/images/img/1.jpg";
+import ten from "@/assets/images/img/10.jpg";
+import eleven from "@/assets/images/img/11.jpg";
+import to from "@/assets/images/img/12.jpg";
+import thirteen from "@/assets/images/img/13.jpg";
+import fourteen from "@/assets/images/img/14.jpg";
+import four from "@/assets/images/img/4.jpg";
+import five from "@/assets/images/img/5.jpg";
+import six from "@/assets/images/img/6.jpg";
+import seven from "@/assets/images/img/7.jpg";
+import nine from "@/assets/images/img/9.jpg";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BeforeCard from "../BeforeCard";
@@ -55,57 +65,78 @@ export default function BeforeImages() {
       >
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Jerry Gill. "
+            img={four}
+            title=" Azim Aziz "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Jerry. "
+            img={one}
+            title="Sheheryar"
+            name="Customer Services /Support"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BeforeCard
+            img={five}
+            title=" Sami Paul"
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Jerry John. "
+            img={six}
+            title="Kamran Tayyab "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. David Gill. "
+            img={seven}
+            title=" Synthana Patrick "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Hooman . "
+            img={nine}
+            title=" Saim Khan "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. harry doe. "
+            img={ten}
+            title="Noor Muhammad "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Jerry Gill. "
+            img={eleven}
+            title="Arsalan javed "
             name="Customer Services/Support"
           />
         </SwiperSlide>
         <SwiperSlide>
           <BeforeCard
-            img={BackgroudImage}
-            title=" Mr. Jerry Gill. "
+            img={to}
+            title=" Taha Naveed "
+            name="Customer Services/Support"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BeforeCard
+            img={thirteen}
+            title=" Ubaid Aziz "
+            name="Customer Services/Support"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <BeforeCard
+            img={fourteen}
+            title=" Ayesha Randhawa "
             name="Customer Services/Support"
           />
         </SwiperSlide>

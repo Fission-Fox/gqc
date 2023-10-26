@@ -1,4 +1,6 @@
-import BackgroudImage from "@/assets/images/team/1.jpg";
+import BackgroudImage from "@/assets/images/img/2.jpg";
+import three from "@/assets/images/img/3.jpg";
+import president from "@/assets/images/img/president.jpg";
 import TeamCard from "../TeamCard";
 export default function Team() {
   return (
@@ -23,8 +25,23 @@ export default function Team() {
       </div>
       <div className="w-full flex gap-6 flex-wrap">
         <TeamCard
+          img={president}
+          title=" CEO  (GLOBAL QUALITY CARS)"
+          name="UZAIR SALMAN"
+        />
+        <TeamCard
+          img={three}
+          title="COO  (GLOBAL QUALITY CARS)"
+          name="ZAIN ALI"
+        />
+        <TeamCard
           img={BackgroudImage}
-          title=" FOUNDER & CEO OF PRO SOURCE"
+          title=" Sales Manager (GLOBAL QUALITY CARS)"
+          name="MOIZ KHAN"
+        />
+        {/* <TeamCard
+          img={BackgroudImage}
+          title="Sales Manager"
           name="MR. Harrison Mushtaq"
         />
         <TeamCard
@@ -36,22 +53,7 @@ export default function Team() {
           img={BackgroudImage}
           title=" FOUNDER & CEO OF PRO SOURCE"
           name="MR. Harrison Mushtaq"
-        />
-        <TeamCard
-          img={BackgroudImage}
-          title=" FOUNDER & CEO OF PRO SOURCE"
-          name="MR. Harrison Mushtaq"
-        />
-        <TeamCard
-          img={BackgroudImage}
-          title=" FOUNDER & CEO OF PRO SOURCE"
-          name="MR. Harrison Mushtaq"
-        />
-        <TeamCard
-          img={BackgroudImage}
-          title=" FOUNDER & CEO OF PRO SOURCE"
-          name="MR. Harrison Mushtaq"
-        />
+        /> */}
       </div>
     </div>
   );
