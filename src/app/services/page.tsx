@@ -34,7 +34,7 @@ export default function Services() {
       <div className="flex items-center w-4/5 m-auto gap-8  flex-col lg:flex-row  ">
         <div className="w-[90%]  md:w-[600px] h-auto md:h-[500px] mt-6 ">
           <img
-            className="rounded-lg  w-full h-full"
+            className="rounded-lg  w-full h-full hover:scale-105 transition duration-500"
             src="https://mkjapan.org/wp-content/uploads/2023/09/large-cargo-ship-with-containers-port-generative-ai-1024x683.jpg"
             alt=""
           />
@@ -94,7 +94,7 @@ export default function Services() {
         </div>
         <div className="w-[90%] md:w-[600px] h-auto md:h-[500px] mt-6 ">
           <img
-            className="rounded-lg w-full h-full"
+            className="rounded-lg w-full h-full hover:scale-105 transition duration-500"
             src="https://mkjapan.org/wp-content/uploads/2023/09/aerial-view-cargo-ship-cargo-container-harbor-1024x683.jpg"
             alt=""
           />
@@ -104,7 +104,7 @@ export default function Services() {
       <div className="flex items-center w-4/5 m-auto gap-8  flex-col lg:flex-row  ">
         <div className="w-[90%] md:w-[600px] h-auto md:h-[500px] mt-6 ">
           <img
-            className="rounded-lg w-full h-full"
+            className="rounded-lg w-full h-full hover:scale-105 transition duration-500"
             src="https://mkjapan.org/wp-content/uploads/2023/09/industrial-designers-working-3d-model-1024x683.jpg"
             alt=""
           />
@@ -165,7 +165,7 @@ export default function Services() {
         </div>
         <div className="w-[90%] md:w-[600px] h-auto md:h-[500px] mt-6 ">
           <img
-            className="rounded-lg w-full h-full"
+            className="rounded-lg w-full h-full hover:scale-105 transition duration-500"
             src="https://mkjapan.org/wp-content/uploads/2023/09/close-up-customer-with-business-person-car-dealership-scaled.jpg"
             alt=""
           />
@@ -176,7 +176,7 @@ export default function Services() {
       </div>
       <div className="flex flex-row justify-center flex-wrap mt-12 gap-40 mb-10 ">
         <div className="flex flex-col items-center">
-          <div className="rounded  flex justify-center items-center text-[white] bg-blue-900 w-[150px] h-[150px]">
+          <div className="rounded  flex justify-center items-center text-[white] bg-blue-900 w-[150px] h-[150px] hover:scale-105 transition duration-500">
             <LanguageIcon sx={{ fontSize: "100px" }} />
           </div>
           <div className="font-bold  text-[20px]  mt-[50px] items-center ">
@@ -184,7 +184,7 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="rounded flex justify-center items-center text-[white] bg-blue-900  w-[150px] h-[150px]">
+          <div className="rounded flex justify-center items-center text-[white] bg-blue-900  w-[150px] h-[150px] hover:scale-105 transition duration-500">
             <SendOutlinedIcon sx={{ fontSize: "100px" }} />
           </div>
           <div className="font-bold  text-[20px]  mt-[50px] ">
@@ -192,7 +192,7 @@ export default function Services() {
           </div>
         </div>
         <div className="flex flex-col items-center">
-          <div className="rounded flex justify-center items-center text-[white] bg-blue-900  w-[150px] h-[150px]">
+          <div className="rounded flex justify-center items-center text-[white] bg-blue-900  w-[150px] h-[150px] hover:scale-105 transition duration-500">
             <Diversity3OutlinedIcon sx={{ fontSize: "100px" }} />
           </div>
           <div className="font-bold  text-[20px] mt-[50px] ">
