@@ -16,10 +16,10 @@ export default function Contact() {
             top: "0px",
           }}
         />
-        <div className="absolute inset-0 bg-black opacity-80"></div>
+        <div className="absolute inset-0 bg-[slategray]  opacity-80"></div>
         <div className="mx-auto md:!mx-36 relative flex flex-col justify-center h-full">
-          <div className="grid grid-cols-1 mt-12 border-b-2 border-yellow-200 w-[70%] md:w-96 m-auto md:m-0">
-            <h4 className="text-white lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
+          <div className="grid grid-cols-1 mt-12 border-b-2 border-[#C50017] w-[70%] md:w-96 m-auto md:m-0">
+            <h4 className="text-black lg:text-[80px] text-4xl lg:leading-normal leading-normal font-medium mb-7 position-relative">
               Contact
             </h4>
           </div>
@@ -31,7 +31,7 @@ export default function Contact() {
       >
         <div className="container flex flex-col">
           <div className="grid grid-cols-1 pb-8 text-center">
-            <h6 className="text-orange-600 text-base font-medium uppercase mb-2">
+            <h6 className="text-[#C50017] text-base font-medium uppercase mb-2">
               Contact us
             </h6>
             <h3 className="mb-4 md:text-2xl text-xl font-medium dark:text-white">
@@ -89,14 +89,9 @@ export default function Contact() {
                       ></textarea>
                     </div>
                   </div>
-                  <button
-                    type="submit"
-                    id="submit"
-                    name="send"
-                    className="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white rounded-md h-11 justify-center flex items-center"
-                  >
-                    Send Message
-                  </button>
+                  <div className="cursor-pointer bg-black hover:bg-white hover:border-2 text-white hover:!text-black hover:border-black w-[150px] h-[40px] flex items-center justify-center rounded-tl-2xl rounded-br-2xl">
+                    <p> Send Message</p>
+                  </div>
                 </form>
               </div>
             </div>
